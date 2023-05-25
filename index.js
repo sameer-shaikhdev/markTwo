@@ -26,7 +26,7 @@ var questionAnswer = [{
   answer: "three"
 },
 {
-  question: "what is ussops primery weapon:",
+  question: "what is ussops primary weapon:",
   answer: "slingshot"
 },
 {
@@ -66,5 +66,7 @@ function quiz() {
   highscore.scoreProcess();
 }
 
+// initalizing welcome function
 welcome();
+// initailizing quiz function
 quiz();
